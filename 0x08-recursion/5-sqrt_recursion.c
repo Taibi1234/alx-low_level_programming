@@ -1,9 +1,17 @@
-#include "main.h"
+/**
+ * actual_sqrt_recursion - recurse to find the nature square root of a number
+ * @n: number to calculate the square root of
+ * @i: iterator
+ *
+ * Return: the resulting square root
+ */
+int actual_sqrt_recursion(int n, int i);
+
 /**
  * _sqrt_recursion - returns the nature square root of a number
- * @n: number to calclate the square root of
+ * @n: number to calculate the square root of
  *
- * Return: the resulting squer root
+ * Return: the resulting square root
  */
 int _sqrt_recursion(int n)
 {
@@ -13,8 +21,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion - recurse to find the nature square root of anumber
- * square root of a number
+ * actual_sqrt_recursion - recurse to find the nature square root of a number
  * @n: number to calculate the square root of
  * @i: iterator
  *
